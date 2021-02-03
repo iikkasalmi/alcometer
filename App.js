@@ -76,7 +76,7 @@ export default function App() {
       </View>
       <View style={styles.field}>
         <Text>Bottles</Text>
-        <Picker style={styles.bottle}
+        <Picker 
         onValueChange={(itemValue) => setBottles(itemValue)}
         selectedValue={bottle}>
          {bottles.map((bottle,index) => (
